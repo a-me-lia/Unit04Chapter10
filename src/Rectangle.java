@@ -36,9 +36,16 @@ public class Rectangle {
         this.width = (int) Math.sqrt(area);
     }
 
+    private void printRectInfo(){
+        System.out.println(this.isSquare() ? "Square of side length " + this.height : "Rectangle of height " + this.height + " and length " + this.width);
+    }
+
     public static void main(String[] args) {
-        Rectangle rect = new Rectangle(1,2);
+        Rectangle rect = new Rectangle(23,46);
+        System.out.println(rect.isSquare());
         rect.quadratize();
         System.out.println(rect.isSquare());
+        rect.printRectInfo();
+
     }
 }
