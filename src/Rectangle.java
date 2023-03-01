@@ -41,8 +41,9 @@ public class Rectangle {
     }
 
     public static void main(String[] args) {
-        Rectangle rect = new Rectangle(23,46);
+        Rectangle rect = new Rectangle(98765,9765);
         System.out.println(rect.isSquare());
+        rect.printRectInfo();
         rect.quadratize();
         System.out.println(rect.isSquare());
         rect.printRectInfo();
