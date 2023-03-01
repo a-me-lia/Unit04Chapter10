@@ -1,4 +1,4 @@
-public class Test {
+public class Test { //complex method
     double eks, wye;
     public Test(double x, double y) {
     }

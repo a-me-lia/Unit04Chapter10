@@ -1,0 +1,18 @@
+
+
+
+
+12) A Java class can be declared final, which means you cannot derive classes from it. For example, Integer and String are final classes. Why?
+
+Integer and String are final classes, so things cannot be inherited from it and the methods and object declarations are secure.
+Wrapper classes such as Integer are declared final to make sure the class methods and constructors cannot be overwritten,
+and remain consistent through implementations.
+
+14)
+
+There is a namespace conflict between the void method swap() and the Pair method swap().
+They are in conflict because they both take the same (no) parameters. A fix would be to rename the two methods WITH DISTINCT NAMES.
+
+19)
+
+The method hello() mist be declared static for it to be accessed in the static context of Main. Then, message needs to be static for hello() to access it.
