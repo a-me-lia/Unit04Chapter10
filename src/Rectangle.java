@@ -6,9 +6,13 @@ public class Rectangle {
      */
     private int width, height;
 
-    public Rectangle(int w, int h){
-        width = w;
-        height = h;
+    public Rectangle(int w, int h) {
+        if (w < 0 || h < 0) {
+        }
+        else{
+            width = w;
+            height = h;
+        }
     }
 
     public Rectangle(int s){

@@ -13,8 +13,6 @@ public class Balloon {
         color = new Color(135,206,250);
     }
 
-
-
     public static void main(String[] args) {
         Balloon temp = new Balloon();
         System.out.println(temp);

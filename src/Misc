@@ -11,4 +11,4 @@ They are in conflict because they both take the same (no) parameters. A fix woul
 
 19)
 
-The method hello() mist be declared static for it to be accessed in the static context of Main. Then, message needs to be static for hello() to access it.
+The method hello() must be declared static for it to be accessed in the static context of Main. Then, message needs to be static for hello() to access it.
