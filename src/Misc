@@ -1,7 +1,3 @@
-
-
-
-
 12) A Java class can be declared final, which means you cannot derive classes from it. For example, Integer and String are final classes. Why?
 
 Integer and String are final classes, so things cannot be inherited from it and the methods and object declarations are secure.
