@@ -13,6 +13,9 @@ public class Test { //complex method
 
         int x = 0;
         x++;
+        //normal ints
+
+        //Integer wrapper method
 
         Integer z = new Integer(0);
         String old = z.getClass().getName() + "@";
